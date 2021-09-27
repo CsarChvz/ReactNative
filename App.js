@@ -13,7 +13,7 @@ import UsersList from './screens/UsersList';
 function MyStack(){
   return (
     <stack.Navigator>
-      <stack.Screen name="UsersList" component={UsersList} ></stack.Screen>
+      <stack.Screen name="UsersList" component={UsersList} options={{title: 'users-list'}} ></stack.Screen>
       <stack.Screen name="CreateUserScreens" component={CreateUserScreens}></stack.Screen>
       <stack.Screen name= "UserDetailScreen" component={UserDetailScreen}></stack.Screen>
     </stack.Navigator>
